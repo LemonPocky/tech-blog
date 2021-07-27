@@ -1,0 +1,26 @@
+{
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "description": "Blog where users can sign up and make posts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LemonPocky/tech-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LemonPocky/tech-blog/issues"
+  },
+  "homepage": "https://github.com/LemonPocky/tech-blog#readme",
+  "dependencies": {
+    "connect-session-sequelize": "^7.1.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "express-session": "^1.17.2"
+  }
+}
