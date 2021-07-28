@@ -2,9 +2,10 @@
   "name": "tech-blog",
   "version": "1.0.0",
   "description": "Blog where users can sign up and make posts",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
     "express": "^4.17.1",
     "express-handlebars": "^5.3.2",
     "express-session": "^1.17.2",
+    "mysql2": "^2.2.5",
     "sequelize": "^6.6.5"
   }
 }
